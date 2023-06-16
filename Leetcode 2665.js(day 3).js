@@ -25,3 +25,11 @@ var createCounter = function(init) {
 
     }
 };
+
+class Counter{
+    constructor(init) {
+        this.init = init;
+        this.count = init;
+    }
+    
+}
